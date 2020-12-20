@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,400;0,600;1,400&family=Teko:wght@400;600&display=swap");
+.App {
+  font-family: "Fira Sans", sans-serif;
+  text-align: center;
+}
+body {
+  font-family: "Fira Sans", sans-serif;
+  background-color: #2e2f30;
+  color: whitesmoke;
+  max-width: 80%;
+  margin-left: 10%;
+}
+.discription {
+  text-align: center;
+  color: black;
+  font-style: bold;
+  background: rgb(236, 236, 105);
+}
+.heading {
+  font-style: italic;
+  display: inline-block;
+  color: red;
+}
+
+.btn-genre {
+  cursor: pointer;
+  background: #e5e7eb;
+  border-radius: 0.5rem;
+  padding: 0.5rem 1rem;
+  border: 1px solid black;
+  margin: 1rem 0.3rem;
+  font-size: 15px;
+}
+.btn-genre:hover {
+  background-color: rgb(243, 239, 26);
+  border: 1px solid rgb(155, 17, 235);
+}
+
+.opt-list {
+  list-style: none;
+  padding: 1rem;
+  border: 1px solid #d1d5db;
+  width: 70%;
+  margin: 1rem 0rem;
+  border-radius: 0.5rem;
+  border-color: rgb(208, 235, 59);
+  text-align: center;
+  margin-left: 100px;
+}
+.opt-list:hover {
+  list-style: none;
+  padding: 1rem;
+  border: 1px solid #d1d5db;
+  width: 80%;
+  margin: 1rem 0rem;
+  border-radius: 0.5rem;
+  border-color: rgb(243, 108, 17);
+  text-align: center;
+  margin-left: 50px;
+}
+.upper-part {
+  /* background-image: url(./cover.jpg); */
+  margin-bottom: 3rem;
+  width: 100%;
+  height: auto;
+  border-image: 1px solid black;
+}
