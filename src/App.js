@@ -2,7 +2,7 @@ import React from "react";
 import "./styles.css";
 import { useState } from "react";
 import { database } from "./database";
-import cover from "./cover.jpg";
+import cover from "./cover.jpg.png";
 
 var itemList = Object.keys(database);
 
